@@ -1,6 +1,5 @@
 let opcao = ""
 
-
 do {
     opcao = prompt(
         "EScolha uma das opções:\n" +
@@ -10,7 +9,6 @@ do {
         "4. Opção Quatro\n" +
         "5. Sair"
         )
-
         switch (opcao) {
             case "1":
                 alert("Você escolheu a opçâo 1")
@@ -30,8 +28,4 @@ do {
             default:
                 break;
         }
-
-
-
-
-} while (opcao !== "5");
+} while (opcao !== "5");   
